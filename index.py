@@ -20,17 +20,4 @@ class BankAccount:
 
 
 
-name = input("Enter account holder name: ")
-account = BankAccount(name)
-
-while True:
-    print("\n1. Deposit")
-    print("2. Withdraw")
-    print("3. Check Balance")
-    print("4. Exit")
-
-    choice = input("Choose option: ")
-
-    if choice == "1":
-        amount = float(input("Enter amount to deposit: "))
-        account.deposit(amo
+name 
