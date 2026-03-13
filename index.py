@@ -33,18 +33,4 @@ while True:
 
     if choice == "1":
         amount = float(input("Enter amount to deposit: "))
-        account.deposit(amount)
-
-    elif choice == "2":
-        amount = float(input("Enter amount to withdraw: "))
-        account.withdraw(amount)
-
-    elif choice == "3":
-        account.check_balance()
-
-    elif choice == "4":
-        print("Thank you for using our bank system!")
-        break
-
-    else:
-        print("Invalid choice!")
+        account.deposit(amo
