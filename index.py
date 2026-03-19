@@ -8,5 +8,4 @@ while True:
 
                 #for 12 hour format
     print(now.strftime("%I:%M:%S"), end="\r")        
-    
     time.sleep(1)
