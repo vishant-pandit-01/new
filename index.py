@@ -1,9 +1,12 @@
 import datetime
 import time
 
+
 while True:
     now = datetime.datetime.now()
+    
                  #for 24 hour format
+    
     
     # print(now.strftime("%H:%M:%S"), end="\r")       
 
